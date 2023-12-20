@@ -1,0 +1,216 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333;
+}
+/* Header styles */
+header {
+    background-color: #2a3642;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+/* About Section styles */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.profile-image {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Skills Section styles */
+#skills {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Projects Section styles */
+#projects {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.project {
+    background-color: rgb(182, 173, 173)aba;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Resume, Contact, Footer styles */
+#resume, #contact, footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #34495e;
+    color: #fff;
+}
+
+footer p {
+    opacity: 0.8;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    perspective: 1000px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Add 3D effect on hover */
+.project:hover {
+    transform: rotateY(15deg) rotateX(15deg);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+/* Projects Section styles */
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    perspective: 1000px;
+    width: 250px; /* Adjust the width as needed */
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-height: 150px; /* Adjust the maximum height as needed */
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Add 3D effect on hover */
+.project:hover {
+    transform: rotateY(15deg) rotateX(15deg);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
